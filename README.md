@@ -35,7 +35,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Use your Azure account and make a resource group. Next create a virtual machine with windows servers 2022 datacenter: Azure Edition, make sure it has 2vcpus. Name the virtual machine DC-1(Domain Controller 1). After it has been created change the NIC private IP Address to static by going to the network,click the NIC name, Click IP-Configurations,lastly click IP Address and change to static.Lastly create another virtual machine as a regular operating system and call it client 1. When creating client 1 put it in the same resource group as DC-1 and use Windows 10 as the operating system, the size of the operating system should be 2 vcpus. Next, put Client-1 in the same virtual network as DC-1. Login to Client-1 and DC-1 on separate Remote Desktop Connection programs using their unique public IP Addresses. Now you're logged in to both DC-1 and Client-1.
 </p>
 <br />
 
