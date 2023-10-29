@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Set up the domain controller(DC-1) and Client-1(Virtual Machine) in Azure.
-- Step 2
+- Step 2: Set up Active Directory on DC-1
 - Step 3
 - Step 4
 
