@@ -23,9 +23,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Step 1: Set up the domain controller(DC-1) and Client-1(Virtual Machine) in Azure.
-- Step 2: Set up Active Directory on DC-1
+- Step 2: Set up Active Directory on DC-1.
 - Step 3: Join Client-1 to DC-1 by changing DNS server.
-- Step 4: How to use a powershell script in order to create other employee usernames that are connected to Client-1 and DC-1
+- Step 4: How to use a powershell script in order to create other employee usernames that are connected to Client-1 and DC-1.
 
 <h2>Deployment and Configuration Steps</h2>
 
