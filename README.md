@@ -27,7 +27,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 1: Set up the domain controller(DC-1) and Client-1(Virtual Machine) in Azure.
 - Step 2: Set up Active Directory on DC-1
 - Step 3: Join Client-1 to DC-1 by changing DNS server.
-- Step 4
+- Step 4: How to use a powershell script in order to create other employee user names that are connected to client-1 and DC-1
 
 <h2>Deployment and Configuration Steps</h2>
 
