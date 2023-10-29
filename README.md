@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Step 1: Set up the domain controller(DC-1) and Client-1(Virtual Machine) in Azure.
 - Step 2: Set up Active Directory on DC-1
 - Step 3: Join Client-1 to DC-1 by changing DNS server.
-- Step 4: How to use a powershell script in order to create other employee user names that are connected to client-1 and DC-1
+- Step 4: How to use a powershell script in order to create other employee usernames that are connected to Client-1 and DC-1
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Use your Azure account and make a resource group. Next create a virtual machine with windows servers 2022 datacenter: Azure Edition, make sure it has 2vcpus. Name the virtual machine DC-1(Domain Controller 1). After it has been created change the NIC private IP Address to static by going to the network,click the NIC name, Click IP-Configurations,lastly click IP Address and change to static.Lastly create another virtual machine as a regular operating system and call it client 1. When creating client 1 put it in the same resource group as DC-1 and use Windows 10 as the operating system, the size of the operating system should be 2 vcpus. Next, put Client-1 in the same virtual network as DC-1. Login to Client-1 and DC-1 on separate Remote Desktop Connection programs using their unique public IP Addresses. Now you're logged in to both DC-1 and Client-1.
+Use your Azure account and make a resource group. Next create a virtual machine with windows servers 2022 datacenter: Azure Edition, make sure it has 2vcpus. Name the virtual machine DC-1(Domain Controller 1). After it has been created change the NIC private IP Address to static by going to the network,click the NIC name, Click IP-Configurations,lastly click IP Address and change to static.Lastly create another virtual machine as a regular operating system and call it client 1. When creating Client 1 put it in the same resource group as DC-1 and use Windows 10 as the operating system, the size of the operating system should be 2 vcpus. Next, put Client-1 in the same virtual network as DC-1. Login to Client-1 and DC-1 on separate Remote Desktop Connection programs using their unique public IP Addresses. Now you're logged in to both DC-1 and Client-1.
 </p>
 <br />
 
