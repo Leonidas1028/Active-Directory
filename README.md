@@ -3,7 +3,7 @@
 </p>
 
 <h1>On-premises Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.I throughly explain how to set up a domain controller with active directory and connecting a seperate virtual machine to the domain controller by using the same Private DNS IP Address.<br />
+This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.I throughly explain how to set up a domain controller with active directory and connecting a seperate virtual machine to the domain controller by using the same Private DNS IP Address. I also use the contents of a script given to me by my instructor in Powershell ISE as an administrator.<br />
 
 
 
