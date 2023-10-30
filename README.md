@@ -13,7 +13,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Microsoft Azure (Virtual Machines/Computer)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
+- PowerShell ISE
 
 <h2>Operating Systems Used </h2>
 
